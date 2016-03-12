@@ -1,0 +1,94 @@
+#sBody {
+  height: 205px;
+  width: 205px;
+  position: absolute;
+  top: 30%;
+  background-color: #888;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sBtn {
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+}
+
+.ctrlBtn {
+  color: #fff;
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.ctrlOn {
+  background-color: #f00;
+}
+
+.ctrlOff {
+  background-color: #222;
+}
+
+#ctrlBox {
+  width: 80px;
+  margin: 30px;
+}
+
+#sBtn0 {
+  background-color: red;
+}
+
+#sBtn1 {
+  background-color: blue;
+}
+
+#sBtn2 {
+  background-color: green;
+}
+
+#sBtn3 {
+  background-color: yellow;
+}
+
+#sBtn0.selected {
+  background-color: lightcoral;
+}
+
+#sBtn1.selected {
+  background-color: lightblue;
+}
+
+#sBtn2.selected {
+  background-color: lightgreen;
+}
+
+#sBtn3.selected {
+  background-color: lightyellow;
+}
+
+@media screen and (max-width: 320px) {
+  /* tiny screen */
+  #sBody {
+    left: 5%;
+  }
+  #ctrlBox {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* small screen */
+  #sBody {
+    left: 10%;
+  }
+  #ctrlBox {
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  /* big screen */
+  #sBody {
+    left: 40%;
+  }
+}
